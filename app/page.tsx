@@ -1,6 +1,15 @@
+import { DisplayPlayers } from "./lib/utilities";
+import { players, teams} from "./lib/nba";
+
+
 function Page() {
   return (
-    <div></div>
+    <div>
+      <DisplayPlayers
+        team={teams}
+        players={players}
+      />
+    </div>
   )
 }
 

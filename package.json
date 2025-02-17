@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@balldontlie/sdk": "^1.2.2",
+    "nba": "^4.15.0",
+    "nba-api-client": "^1.1.2",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
